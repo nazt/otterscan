@@ -6,5 +6,8 @@
     "deploymentEnabled": {
       "dependabot/*": false
     }
-  }
+  },
+   "rewrites":  [
+     {"source": "/(.*)", "destination": "/"}
+   ]  
 }
